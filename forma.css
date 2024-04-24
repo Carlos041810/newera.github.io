@@ -1,0 +1,105 @@
+body {
+  background: linear-gradient(to left, #0c1022, #000000);
+  }
+
+  #moon {
+    animation: orbit 13s linear infinite;
+    width: 55%;
+    height: 55%;
+    display: block;
+   margin: auto;
+   margin-right: auto
+  }
+  #brillar {
+    animation: orbit 70s linear infinite;
+    width: 600px;
+    height: 600px;
+    margin-top: -750px;
+    margin-left: 300px;
+  }
+
+  
+ 
+  @keyframes orbit {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .centered {
+    text-align: center;
+  }
+  nav a {
+    transition: background-color 0.5s;
+  }
+  
+  nav a:hover {
+    background-color: rgb(41, 41, 241);
+  }
+  nav{
+    position: relative;
+    margin: 20px auto 0;
+    width: 590;
+    height: 50px;
+    background-color: 0c1022;
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgb(148, 151, 120);
+}
+nav a{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+}
+a:nth-child(1){
+       width: 190px;
+    }
+a:nth-child(2){
+        width: 190px;
+    }
+a:nth-child(3){
+        width: 190px;
+    }
+a:nth-child(4){
+        width: 190px;
+    }
+a:nth-child(5){
+        width: 190px;
+    }
+nav a {
+    transition: background-color 0.5s, border-radius 0.5s;
+    border-radius: 10px;
+  }
+      
+ nav a:hover {
+    background-color: rgb(37, 71, 70);
+    border-radius: 10px;
+  }
+
+ul ul {
+  display: none;
+}
+
+ul li:hover > ul {
+  display: block;
+
+}
+ul li:hover{
+color: rgb(9, 210, 224);
+text-shadow: 0 0 1px rgb(248, 248, 248);
+
+}
+
+
+ul li a:hover{
+  color: rgb(66, 199, 25);
+}
